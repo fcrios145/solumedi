@@ -58,7 +58,7 @@ ul.menu li a {
 ul.menu li:first-child a { border-left: none; }
 ul.menu li:last-child a{ border-right: none; }
  
-ul.menu li:hover > a { color: #caad16; }
+ul.menu li:hover > a { color: #039CA4; }
 ul.menu ul {
     position: absolute;
     top: 50px;

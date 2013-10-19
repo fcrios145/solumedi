@@ -25,9 +25,15 @@
 				<li><a href="#" alt="home">HOME</a></li>
 				<li><a href="#" alt="especialidades">ESPECIALIDADES</a>
 					<ul>
-						<li><a href="#">Especialidad 1</a></li>
-						<li><a href="#">Especialidad 2</a></li>
-						<li><a href="#">Especilidad 3</a></li>
+						<li><a href="#">Reumatolog&iacutea</a></li>
+						<li><a href="#">Ortopedia</a></li>
+						<li><a href="#">Nefrolog&iacutea</a></li>
+						<li><a href="#">Nutrici&oacuten</a></li>
+						<li><a href="#">Centro de infusi&oacuten</a></li>
+						<li><a href="#">Endocrinolog&iacutea</a></li>
+						<li><a href="#">Hematolog&iacutea</a></li>
+						<li><a href="#">Terapia Fis&iacuteca</a></li>
+						
 					</ul>
 				</li>
 					
@@ -40,24 +46,40 @@
 				</li>
 
 				<li><a href="#" alt="citas">CITAS</a></li>
-				<li><a href="#" alt="quienesSomos">QUIENES SOMOS?</a></li>
+				<li><a href="#" alt="quienesSomos">&iquestQUIENES SOMOS?</a></li>
 				
 			</ul>
 
 		</div>
 		<div id="content">
-			<img src="" alt="servicio1"> <span>some text</span>
-			<img src="" alt="servicio2"> <span>Some text</span>
-			<img src="" alt="servicio3"> <span>some text</span>
 			
 			<div id="slider">
 				<ul class="bxslider">
-					<li><img src="img/slider/img12.png" title="Titulo1"></li>
-					<li><img src="img/slider/img2.jpg" title="Titulo2"></li>
-					<li><img src="img/slider/img3.jpg" title="Titulo3"></li>
+					<li><img src="img/slider/img11.png" title="Titulo1"></li>
+					<li><img src="img/slider/img22.png" title="Titulo2"></li>
+					<li><img src="img/slider/img33.png" title="Titulo3"></li>
 				</ul>
 			</div>
-			
+
+			<span class="servicios">Servicios</span>
+
+			<div class="lateral" id="lateral1">
+				
+				<a href="#"><img src="img/img1.jpg" alt=""></a>	
+	
+			</div>
+			<div class="lateral" id="lateral2">
+
+				<a href="#"><img src="img/img2.jpg" alt=""></a>	
+				
+			</div>
+
+			<div class="lateral" id="lateral3">
+
+				<a href="#"><img src="img/img3.jpg" alt=""></a>	
+				
+			</div>
+
 		</div>
 
 		
@@ -74,8 +96,8 @@
 
 			</ul>
 
-			<img src="" alt="facebookLogo">
-			<img src="" alt="twitterLogo">
+			<a href="#"><img id="logofb" class="sociales" src="img/logoFb.gif" alt=""></a>
+			<a href="#"><img id="logotw" class="sociales" src="img/logoTw.gif" alt=""></a>
 
 		</div>
 
