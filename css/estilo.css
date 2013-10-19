@@ -1,0 +1,11 @@
+body {
+	background: url('img/fondo.png');
+	background-repeat: repeat;
+}
+
+#wrapper {
+	width: 960;
+	height: 1024;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
