@@ -5,6 +5,6 @@ clear
 git status
 echo "Commit: "
 read commit
-git commit -m commit
+git commit -m "$commit"
 git push
 
