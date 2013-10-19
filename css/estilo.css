@@ -1,6 +1,5 @@
 body {
-	background: url('img/fondo.png');
-	background-repeat: repeat;
+	background-color: #8FB9FF;
 }
 
 #wrapper {
@@ -8,4 +7,26 @@ body {
 	height: 1024;
 	background: #FFFFFF;
 	margin: 0 auto;
+	position: relative;
 }
+
+#header img {
+	position: absolute;
+	left: 35;
+	top: 40;
+	width: 300;
+}
+
+.tel {
+	position: absolute;
+	right: 35;
+}
+
+#telefono {
+	top: 10;
+}
+
+#mail {
+	top: 28;
+}
+
