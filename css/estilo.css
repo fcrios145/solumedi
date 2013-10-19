@@ -1,5 +1,5 @@
 body {
-	background-color: #8FB9FF;
+	background: url('img/pattern1.png');
 }
 
 #wrapper {
@@ -12,14 +12,17 @@ body {
 
 #header img {
 	position: absolute;
-	left: 35;
-	top: 40;
+	left: 20;
+	top: 80;
 	width: 250;
 }
 
 .tel {
 	position: absolute;
 	right: 35;
+	font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 #telefono {
@@ -33,6 +36,16 @@ body {
 .menu {
 	position: absolute;
 	right: 35;
-	top: 50;
+	top: 100;
+	z-index: 1;
+}
+
+#slider {
+	width: 860;
+	height: 50;
+	position: absolute;
+	left: 50;
+	top: 150;
+	z-index: 0;
 }
 
