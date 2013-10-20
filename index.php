@@ -104,12 +104,18 @@
 
 			<div id="footer2">
 				<ul>
-					<li><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
+					<li><a href="#">LINK 1</a></li>
+					<li><a href="#">LINK 2</a></li>
+					<li><a href="#">LINK 3</a></li>
+					<li><a href="#">LINK 4</a></li>
+					<li><a href="#">LINK 5</a></li>
 				</ul>
+
+				<a href="#"><img id="logo1" src="img/logoFb.gif" alt=""></a>
+				<a href="#"><img id="logo2" src="img/logoTw.gif" alt=""></a>
+				<img class="separadores" id="separador1" src="img/separador3.png" alt="">
+				<img class="separadores" id="separador2" src="img/separador3.png" alt="">
+				<span id="telefono2">TEL. (6691) 12 02 39  E-mail: solumedi1@gmail.com</span>			
 
 			</div>
 
@@ -119,14 +125,14 @@
 		
 
 	</div>	
+
+
 	<div id="footer" class="pie">
 			
-		<div id="socialFooter">
-			<a href="#"><img src="img/logoFb.gif" alt=""></a>
-			<a href="#"><img src="img/logoTw.gif" alt=""></a>			
-		</div>
-		
 
+	</div>
+	<div id="footer3">
+		
 	</div>
 
 </body>
