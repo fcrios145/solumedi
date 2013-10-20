@@ -3,9 +3,12 @@ $(document).ready(function(){
   $('.bxslider').bxSlider( {
   		auto: true,
   		autoControls: true,
-  		mode: 'fade',
   		captions: true
 
+	});
+
+  $('.bxslider2').bxSlider( {
+  		mode: 'fade'
 	});
 
 

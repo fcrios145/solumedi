@@ -16,9 +16,10 @@
 
 	<div id="wrapper">
 		<div id="header">
+
 			<span class="tel "id="telefono">TEL. (6691) 12 02 39</span>
 			<span class="tel" id="mail">E-mail: solumedi1@gmail.com</span>
-			<a href="index.php"><img src="img/logo.png" alt="soluciones medicas integrales"></a>
+			<a href="index.php"><img id="logo" src="img/logo.png" alt="soluciones medicas integrales"></a>
 
 			<ul class="menu">
 
@@ -46,9 +47,12 @@
 				</li>
 
 				<li><a href="#" alt="citas">CITAS</a></li>
-				<li><a href="#" alt="quienesSomos">&iquestQUIENES SOMOS?</a></li>
+				<li><a href="#quienesSomosTitulo" alt="quienesSomos">&iquestQUIENES SOMOS?</a></li>
+				<li><a href="#">CONTACTO</a></li>
 				
 			</ul>
+			<a href="#"><img id="logofb" class="sociales" src="img/logoFb.gif" alt=""></a>
+			<a href="#"><img id="logotw" class="sociales" src="img/logoTw.gif" alt=""></a>
 
 		</div>
 		<div id="content">
@@ -83,28 +87,47 @@
 				
 			</div>
 
+			<div id="quienessomos">
+				<h6 id="quienesSomosTitulo">&iquestQuienes Somos?</h6>
+				<p>Equipo m&eacutedico especializado unido para brindar <strong>tratamiento integral, y humano</strong> a todas aquellas personas con padecimientos musculoesquel&eacuteticos y reum&aacuteticos</p>
+			</div>
+
+			<div id="slider2">
+				<ul class="bxslider2">
+					<li><img src="img/slider2/21.jpg" title="Titulo1"></li>
+					<li><img src="img/slider2/22.jpg" title="Titulo2"></li>
+					<li><img src="img/slider2/23.jpg" title="Titulo3"></li>
+					<li><img src="img/slider2/24.jpg" title="Titulo3"></li>
+					<li><img src="img/slider2/25.jpg" title="Titulo3"></li>
+				</ul>
+			</div>
+
+			<div id="footer2">
+				<ul>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+				</ul>
+
+			</div>
+
 		</div>
+
 
 		
 
-
-		<div id="footer">
-			<ul>
-				<li><a href="#">1</a></li>
-				<li><a href="#">2</a></li>
-				<li><a href="#">3</a></li>
-				<li><a href="#">4</a></li>
-				<li><a href="#">5</a></li>
-
-
-			</ul>
-
-			<a href="#"><img id="logofb" class="sociales" src="img/logoFb.gif" alt=""></a>
-			<a href="#"><img id="logotw" class="sociales" src="img/logoTw.gif" alt=""></a>
-
-		</div>
-
 	</div>	
+	<div id="footer" class="pie">
+			
+		<div id="socialFooter">
+			<a href="#"><img src="img/logoFb.gif" alt=""></a>
+			<a href="#"><img src="img/logoTw.gif" alt=""></a>			
+		</div>
+		
+
+	</div>
 
 </body>
 </html>
