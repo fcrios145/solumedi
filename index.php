@@ -18,7 +18,7 @@
 		<div id="header">
 			<span class="tel "id="telefono">TEL. (6691) 12 02 39</span>
 			<span class="tel" id="mail">E-mail: solumedi1@gmail.com</span>
-			<img src="img/logo.png" alt="soluciones medicas integrales">
+			<a href="index.php"><img src="img/logo.png" alt="soluciones medicas integrales"></a>
 
 			<ul class="menu">
 
@@ -65,18 +65,21 @@
 
 			<div class="lateral" id="lateral1">
 				
-				<a href="#"><img src="img/img1.jpg" alt=""></a>	
+				<a href="#"><img src="img/infusion.jpg" alt="moduloinfusion" title="Infusion"></a>	
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, accusamus, placeat ratione sit dolore quisquam nemo quidem eligendi expedita quo dignissimos perspiciatis numquam a quae eaque pariatur excepturi nobis provident!</p>
 	
 			</div>
 			<div class="lateral" id="lateral2">
 
 				<a href="#"><img src="img/img2.jpg" alt=""></a>	
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, accusamus, placeat ratione sit dolore quisquam nemo quidem eligendi expedita quo dignissimos perspiciatis numquam a quae eaque pariatur excepturi nobis provident!</p>
 				
 			</div>
 
 			<div class="lateral" id="lateral3">
 
 				<a href="#"><img src="img/img3.jpg" alt=""></a>	
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, accusamus, placeat ratione sit dolore quisquam nemo quidem eligendi expedita quo dignissimos perspiciatis numquam a quae eaque pariatur excepturi nobis provident!</p>
 				
 			</div>
 
