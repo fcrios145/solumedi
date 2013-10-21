@@ -1,8 +1,8 @@
 $(document).ready(function(){
   
   $('.bxslider').bxSlider( {
-  		auto: true,
-  		autoControls: true,
+  		//auto: true,
+  		//autoControls: true,
   		captions: true
 
 	});
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
    });
 
-	});
+	}); 
 
 
 

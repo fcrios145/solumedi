@@ -113,9 +113,39 @@
 
 				<a href="#"><img id="logo1" src="img/logoFb.gif" alt=""></a>
 				<a href="#"><img id="logo2" src="img/logoTw.gif" alt=""></a>
+				<a class="twitter-timeline"  href="https://twitter.com/search?q=%23salud"  data-widget-id="392090790513483777">Tweets sobre "#salud"</a>
+				<div id="twitter">
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>	
+
 				<img class="separadores" id="separador1" src="img/separador3.png" alt="">
 				<img class="separadores" id="separador2" src="img/separador3.png" alt="">
-				<span id="telefono2">TEL. (6691) 12 02 39  E-mail: solumedi1@gmail.com</span>			
+				<span id="telefono2">TEL. (6691) 12 02 39  E-mail: solumedi1@gmail.com</span>
+
+				<div id="formulario">
+
+					<form action="procesar3.php" name="formulario" id="formulario" method="POST">
+
+						<span class="letras" id="tuNombre">Nombre:</span>
+						<input name="cajaNombre" type="text" class="cajas" id="cajaNombre" value="">
+						<div id="mensaje1" class="errores">Nombre Requerido</div>
+
+						<span class="letras letras2">Email</span>
+						<input name="cajaMail" type="text" class="cajas" id="cajaMail" value="">
+						<div id="mensaje2" class="errores">Email Requerido</div>
+			                   
+
+						<span class="letrasGrandes">Comentario:</span>
+						<input name="cajaGrande" type="text" class="cajaGrande" id="cajaMsj" value="">
+						<div id="mensaje3" class="errores">Comentario Requerido</div>
+
+						<span id="pie">Enviar </span>
+						
+						<button type="submit" id="submit">Enviar</button>
+
+					</form>
+					
+				</div>			
 
 			</div>
 
