@@ -1,10 +1,9 @@
 <?php 
 
-	$server="localhost";
-	$usuario="root";
-	$pass="";
-	$db="pagina";
-	$link=mysql_connect($server,$usuario,$pass)or die (exit(mysql_error()));
-	mysql_select_db($db);
-
+	$link = mysql_connect("localhost","root","rios");
+	if($link) {
+		mysql_select_db("soluSql",$link); 
+	} else {
+		echo "No se pudo conectar";
+	}
  ?>

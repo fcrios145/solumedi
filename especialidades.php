@@ -1,3 +1,34 @@
+<?php 
+
+	$link = mysql_connect("localhost","root","rios");
+	if($link) {
+		mysql_select_db("soluweb",$link);
+	} else {
+		echo "No se pudo conectar";
+	}
+
+	$pagina = $_GET['esp'];
+
+	
+	$query = "SELECT * FROM v_especialidad WHERE id =".$pagina;
+
+	$resultado = mysql_query($query);
+
+	if (!$resultado) {
+    	$mensaje  = 'Consulta no valida: ' . mysql_error() . "\n";
+   	 	$mensaje .= 'Consulta completa: ' . $query;
+    	die($mensaje);
+	}
+
+	while ($fila = mysql_fetch_assoc($resultado)) {	    
+	    $titulo = $fila['nombre'];
+	    $descripcion = $fila['descripcion'];
+	    $doctor = $fila['nombre_doctor'];
+	}
+
+
+ ?>
+
 <html>
 <head>
 	<title>Soluciones M&eacute;dicas Integrales</title>
@@ -26,14 +57,14 @@
 				<li><a href="#" alt="home">HOME</a></li>
 				<li><a href="#" alt="especialidades">ESPECIALIDADES</a>
 					<ul>
-						<li><a href="#">Reumatolog&iacutea</a></li>
-						<li><a href="#">Ortopedia</a></li>
-						<li><a href="#">Nefrolog&iacutea</a></li>
-						<li><a href="#">Nutrici&oacuten</a></li>
-						<li><a href="#">Centro de infusi&oacuten</a></li>
-						<li><a href="#">Endocrinolog&iacutea</a></li>
-						<li><a href="#">Hematolog&iacutea</a></li>
-						<li><a href="#">Terapia Fis&iacuteca</a></li>
+						<li><a href="especialidades.php?esp=1">Reumatolog&iacutea</a></li>
+						<li><a href="especialidades.php?esp=2">Ortopedia</a></li>
+						<li><a href="especialidades.php?esp=3">Nefrolog&iacutea</a></li>
+						<li><a href="especialidades.php?esp=4">Nutrici&oacuten</a></li>
+						<li><a href="especialidades.php?esp=5">Centro de infusi&oacuten</a></li>
+						<li><a href="especialidades.php?esp=6">Endocrinolog&iacutea</a></li>
+						<li><a href="especialidades.php?esp=7">Hematolog&iacutea</a></li>
+						<li><a href="especialidades.php?esp=8">Terapia Fis&iacuteca</a></li>
 						
 					</ul>
 				</li>
@@ -56,7 +87,13 @@
 
 		</div>
 		<div id="content">
-						
+				
+				<h1><?php echo $titulo ?></h1>
+
+				<p><?php echo $descripcion ?></p>
+
+				<span><?php echo $doctor ?></span>
+
 			<div id="footer2">
 				<ul>
 					<li><a href="#">LINK 1</a></li>
