@@ -2,7 +2,7 @@
 <head>
 	<title>Soluciones M&eacute;dicas Integrales</title>
 	<link rel="stylesheet" href="css/reseter.css" type="text/css"/>
-	<link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+	<link rel="stylesheet" href="css/estiloGen.css" type="text/css"/>
 	<link rel="stylesheet" href="css/menu.css" type="text/css"/>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>	
 	<script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>
@@ -26,7 +26,7 @@
 				<li><a href="#" alt="home">HOME</a></li>
 				<li><a href="#" alt="especialidades">ESPECIALIDADES</a>
 					<ul>
-						<li><a href="especialidades.php">Reumatolog&iacutea</a></li>
+						<li><a href="#">Reumatolog&iacutea</a></li>
 						<li><a href="#">Ortopedia</a></li>
 						<li><a href="#">Nefrolog&iacutea</a></li>
 						<li><a href="#">Nutrici&oacuten</a></li>
@@ -56,52 +56,7 @@
 
 		</div>
 		<div id="content">
-			
-			<div id="slider">
-				<ul class="bxslider">
-					<li><img src="img/slider/img11.png" title="Titulo1"></li>
-					<li><img src="img/slider/img22.png" title="Titulo2"></li>
-					<li><img src="img/slider/img33.png" title="Titulo3"></li>
-				</ul>
-			</div>
-
-			<span class="servicios">Servicios</span>
-
-			<div class="lateral" id="lateral1">
-				
-				<a href="#"><img src="img/infusion.jpg" alt="moduloinfusion" title="Infusion"></a>	
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, accusamus, placeat ratione sit dolore quisquam nemo quidem eligendi expedita quo dignissimos perspiciatis numquam a quae eaque pariatur excepturi nobis provident!</p>
-	
-			</div>
-			<div class="lateral" id="lateral2">
-
-				<a href="#"><img src="img/img2.jpg" alt=""></a>	
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, accusamus, placeat ratione sit dolore quisquam nemo quidem eligendi expedita quo dignissimos perspiciatis numquam a quae eaque pariatur excepturi nobis provident!</p>
-				
-			</div>
-
-			<div class="lateral" id="lateral3">
-
-				<a href="#"><img src="img/img3.jpg" alt=""></a>	
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, accusamus, placeat ratione sit dolore quisquam nemo quidem eligendi expedita quo dignissimos perspiciatis numquam a quae eaque pariatur excepturi nobis provident!</p>
-				
-			</div>
-
-			<div id="quienessomos">
-				<h6 id="quienesSomosTitulo">&iquestQuienes Somos?</h6>
-				<p>Equipo m&eacutedico especializado unido para brindar <strong>tratamiento integral, y humano</strong> a todas aquellas personas con padecimientos musculoesquel&eacuteticos y reum&aacuteticos</p>
-			</div>
-
-			<div id="slider2">
-				<ul class="bxslider2">
-					<li><img src="img/slider2/21.jpg" title="Titulo1"></li>
-					<li><img src="img/slider2/22.jpg" title="Titulo2"></li>
-					<li><img src="img/slider2/23.jpg" title="Titulo3"></li>
-					<li><img src="img/slider2/24.jpg" title="Titulo3"></li>
-					<li><img src="img/slider2/25.jpg" title="Titulo3"></li>
-				</ul>
-			</div>
-
+						
 			<div id="footer2">
 				<ul>
 					<li><a href="#">LINK 1</a></li>

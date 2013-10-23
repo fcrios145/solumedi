@@ -1,13 +1,14 @@
 $(document).ready(function(){
   
   $('.bxslider').bxSlider( {
-  		//auto: true,
-  		//autoControls: true,
+  		auto: true,
+  		autoControls: true,
   		captions: true
 
 	});
 
   $('.bxslider2').bxSlider( {
+                auto: true,
   		mode: 'fade'
 	});
 
