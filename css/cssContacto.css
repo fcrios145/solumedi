@@ -268,45 +268,8 @@ body {
     z-index: 2;
 }
 
-#des {
+#formulario {
 	position: absolute;
-	left: 20;
-	top: 180;
-}
-
-#content h1{
-	font-family: fantasy;
-    font-weight: bold;
-    font-size: 30px;
-    color: #2A4DA2;
-    margin-bottom: 20;
-    
-}
-
-#content p{
-	font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    margin-bottom: 35;
-    width: 550;
-    text-align: justify;
-    /*color: #92938E;*/
-    
-}
-
-#imagenDescripcion {
-	width: 200;
-	height: 200;
-	position: absolute;
-	right: 50;
-	top: 230;
-
-}
-
-#doctor {
-	font-family: Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    font-style: italic;
-    color: #92938E;
-    
+	left: 50;
+	top: 200;
 }

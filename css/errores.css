@@ -1,0 +1,15 @@
+.errores {
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	background: #FF0000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	color: #FFF;
+	display: none;
+	font-size: 14;
+	margin-top: -80;
+	margin-left: 340;
+	padding: 10;
+	position: absolute;
+	z-index: 1;
+}

@@ -24,8 +24,9 @@
 	    $titulo = $fila['nombre'];
 	    $descripcion = $fila['descripcion'];
 	    $doctor = $fila['nombre_doctor'];
-	}
+	    $imagen = $fila['img'];
 
+	}
 
  ?>
 
@@ -78,8 +79,8 @@
 				</li>
 
                                 <li><a href="#mapas" alt="citas">UBICACI&Oacute;N</a></li>
-				<li><a href="#quienesSomosTitulo" alt="quienesSomos">&iquestQUIENES SOMOS?</a></li>
-				<li><a href="#">CONTACTO</a></li>
+				<li><a href="index.php#quienesSomosTitulo" alt="quienesSomos">&iquestQUIENES SOMOS?</a></li>
+				<li><a href="contacto.php">CONTACTO</a></li>
 				
 			</ul>
 			<a href="#"><img id="logofb" class="sociales" src="img/logoFb.gif" alt=""></a>
@@ -87,12 +88,23 @@
 
 		</div>
 		<div id="content">
-				
+
+			<?php 
+					echo '<img id="imagenDescripcion" src="'.$imagen.'" alt="imagenDescripcion">'
+			?>			
+
+			<div id="des">
 				<h1><?php echo $titulo ?></h1>
 
 				<p><?php echo $descripcion ?></p>
 
-				<span><?php echo $doctor ?></span>
+				<span id="doctor"><?php echo $doctor ?></span>
+				
+
+				
+			</div>
+				
+				
 
 			<div id="footer2">
 				<ul>
@@ -112,7 +124,7 @@
 
 				<img class="separadores" id="separador1" src="img/separador3.png" alt="">
 				<img class="separadores" id="separador2" src="img/separador3.png" alt="">
-				<span id="telefono2">TEL. (6691) 12 02 39  E-mail: solumedi1@gmail.com</span>
+				<span id="telefono2">Calle dorados de villa No. 5 Col. S&aacutenchez C&eacutelis Mazatl&aacuten, Sin.</span>
 				                                
 					
 				</div>			

@@ -47,7 +47,7 @@
 				</li>
 
                                 <li><a href="#mapas" alt="citas">UBICACI&Oacute;N</a></li>
-				<li><a href="#quienesSomosTitulo" alt="quienesSomos">&iquestQUIENES SOMOS?</a></li>
+				<li><a href="index.php#quienesSomosTitulo" alt="quienesSomos">&iquestQUIENES SOMOS?</a></li>
 				<li><a href="#">CONTACTO</a></li>
 				
 			</ul>
